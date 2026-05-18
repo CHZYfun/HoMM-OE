@@ -1,5 +1,4 @@
 This repository contains a memory layout dump of Hex.dll – the core game assembly of Heroes of Might and Magic: Olden Era.
-The file (Hex.dll_ptch6.h) was generated using Il2CppDumper and manual analysis.
 
 Its purpose is simple: give you the class structures, field offsets, and method addresses needed to build ESP cheats.
 
@@ -10,7 +9,7 @@ Field offsets (where to find positions, health, team ID, name, etc.).
 
 Method RVA (relative virtual addresses) – can be used to hook or call functions externally.
 
-The dump is not a full source code – it’s a memory map for an Il2Cpp game. Perfect for building an external overlay that reads game memory.
+The dump is not a full source code – it’s a memory map for an Il2Cpp game. Perfect for building a overlay that reads game memory.
 
 How This Helps You Make ESP
 With this dump, you can:
