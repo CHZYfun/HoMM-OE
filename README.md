@@ -37,21 +37,16 @@ Use at your own risk. Online games may ban for memory reading/modification.
 
 This file is for educational / research purposes only. Don’t be a jerk – don’t use cheats in competitive multiplayer.
 
-🛠️ How to Use (Quick Start)
+How to Use
 Find the base address of Hex.dll in the game process.
 
 Add the base to each RVA from the dump to get absolute addresses.
 
 Read process memory (e.g., ReadProcessMemory on Windows) using the offsets from the classes you need.
 
-Render an overlay (DirectX, OpenGL, or ImGui) to draw ESP information.
-
-Need help? There are plenty of open‑source ESP frameworks that work with Il2Cpp dumps – this file provides the game‑specific offsets.
-
-Contributing
-If you have corrected field offsets or found new useful classes for ESP, open a pull request. Please include proof (e.g., memory dump screenshots).
+Need help? There are plenty of open‑source ESP frameworks that work with Il2Cpp dumps – this file provides the game specific offsets.
 
 License
 This dump is provided “as is” for educational purposes. All game code belongs to the original developers.
 
-Happy hacking – and may your ESP be flawless. 🧙‍♂️
+Happy hacking – and may your ESP be flawless.
