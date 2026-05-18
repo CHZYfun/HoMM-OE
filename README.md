@@ -1,7 +1,7 @@
 This repository contains a memory layout dump of Hex.dll – the core game assembly of Heroes of Might and Magic: Olden Era.
 The file (Hex.dll_ptch6.h) was generated using Il2CppDumper and manual analysis.
 
-Its purpose is simple: give you the class structures, field offsets, and method addresses needed to build ESP cheats (Extra Sensory Perception – e.g., wallhacks, player boxes, health bars, etc.).
+Its purpose is simple: give you the class structures, field offsets, and method addresses needed to build ESP cheats.
 
 What’s Inside?
 Class definitions (e.g., Unit, Hero, CameraShake, BhWorldCamera).
